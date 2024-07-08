@@ -9,9 +9,9 @@ public class Main {
         int n = sc.nextInt();
         int m = sc.nextInt();
 
-        Find f = new Find();
+       
 
-        f.find(n,m);
+        find(n,m);
 
         
 
@@ -20,24 +20,20 @@ public class Main {
 
     }
 
-    
-}
 
-class Find {
-
-    void find(int n, int m){
+    static void find(int n, int m){
         int value= 1;
 
         for (int i = 1; i<Math.max(n,m);i++){
             if (n%i==0 && m%i==0){
-                value= value* i;
+                value= i;
 
 
             }
 
             
         }
-        System.out.print(value);
+        System.out.print(m*n/value);
     }
 
 }
