@@ -9,9 +9,9 @@ public class Main {
 
         double a = sc.nextDouble();
 
-        double b = a*30.48
+        double b = a*30.48;
 
-        System.out.printf("%.2f",b);
+        System.out.printf("%.1f",b);
 
     }
 }
