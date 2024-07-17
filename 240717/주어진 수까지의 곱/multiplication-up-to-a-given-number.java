@@ -7,7 +7,7 @@ public class Main {
        
        int a = sc.nextInt();
        int b = sc.nextInt();
-       int p = 0;
+       int p = 1;
 
         // 입력을 받으며 0이상 200이하의 정수들을 선별합니다.
         for(int i = a; i <= b; i++) {
