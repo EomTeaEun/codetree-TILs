@@ -31,8 +31,8 @@ public class Main {
 
         double s = (double)sum2/cnt;
 
-        System.out.print(sum1);
-        System.out.print(" "+s);
+        System.out.print(sum1+" ");
+        System.out.printf("%.1f",s);
 
     }
 }
