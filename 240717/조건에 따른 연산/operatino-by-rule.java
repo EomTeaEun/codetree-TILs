@@ -20,14 +20,14 @@ public class Main {
 
 
 
-            
+        cnt++;
         if(n>1000){
             break;
         }    
         
-        cnt++;
+        
         }
 
-        System.out.println(cnt + 1);
+        System.out.println(cnt);
     }
 }
