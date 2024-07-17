@@ -10,7 +10,7 @@ public class Main {
 
             int a = sc.nextInt();
 
-                if(a%3==0){
+                if(a%3==0 || a%2!=0){
                     System.out.println(a);
                 }
   
