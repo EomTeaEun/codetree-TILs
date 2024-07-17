@@ -11,13 +11,21 @@ public class Main {
         a = sc.nextInt();
         b = sc.nextInt();
 
-        // a부터 b까지의 수 중 5 또는 7의 배수인 수들을 더합니다.
-        for(int i = a; i <= b; i++) {
+        if(a<b)
+        {for(int i = a; i <= b; i++) {
             if(i % 5 == 0) {
                 sum += i;
                 
             }
-        }
+        }}
+
+        if(a>b)
+        {for(int i = b; i <= a; i++) {
+            if(i % 5 == 0) {
+                sum += i;
+                
+            }
+        }}
 
         
 
