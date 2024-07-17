@@ -22,6 +22,6 @@ public class Main {
         
 
         // 출력
-        System.out.printf(sum);
+        System.out.print(sum);
     }
 }
