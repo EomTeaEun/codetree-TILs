@@ -15,6 +15,6 @@ public class Main {
         }
 
         
-        System.out.printf(p);
+        System.out.print(p);
     }
 }
