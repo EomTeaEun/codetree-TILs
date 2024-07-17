@@ -5,10 +5,10 @@ public class Main {
         // 여기에 코드를 작성해주세요.
         Scanner sc = new Scanner (System.in);
 
-        String[] s = new String [10];
+        int[] s = new int [10];
 
         for(int i = 0; i<10; i++){
-            s[i] = sc.next();
+            s[i] = sc.nextInt();
         }
 
         int sum=s[2]+s[4]+s[9];
