@@ -6,7 +6,7 @@ public class Main {
         
         
         int n;
-        int sum = 0;
+        int sum = 1;
 
         n = sc.nextInt();
         
