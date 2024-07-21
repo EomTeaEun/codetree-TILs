@@ -23,7 +23,7 @@ public class Main {
 
         b = a/ cnt;
 
-        System.out.print("%.2f",b);
+        System.out.printf("%.2f",b);
 
     }
 }
