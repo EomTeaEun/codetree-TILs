@@ -13,12 +13,14 @@ public class Main {
         int r = 0;
 
 
-        while(n>=1){
-
-            if(n==0){
+if(n==0){
                 s = "0";
                 break;
             }
+
+        while(n>=1){
+
+            
 
             r = n%2;
            
