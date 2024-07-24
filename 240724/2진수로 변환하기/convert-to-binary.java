@@ -15,6 +15,11 @@ public class Main {
 
         while(n>=1){
 
+            if(n==0){
+                s = "0";
+                break;
+            }
+
             r = n%2;
            
             s=r+s;
