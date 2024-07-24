@@ -13,12 +13,14 @@ public class Main {
         int r = 0;
 
 
-if(n==0){
+        if(n==0){
                 s = "0";
-                break;
+                
             }
 
-        while(n>=1){
+        else
+
+        {while(n>=1){
 
             
 
@@ -28,7 +30,7 @@ if(n==0){
 
             n = n/2;
 
-        }
+        }}
 
         System.out.print(s);
 
