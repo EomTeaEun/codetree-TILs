@@ -14,7 +14,7 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        for(int j=a; j<b; j++){
+        for(int j=a+offset; j<b+offset; j++){
 
             arr[j]++;
 
