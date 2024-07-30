@@ -22,7 +22,7 @@ public class Main {
                 sum += arr[a][j];
             }
 
-             System.out.print(arr[a][j]);
+             System.out.print(sum);
           
            
             
