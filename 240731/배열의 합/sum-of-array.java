@@ -6,7 +6,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        int a, cnt = 0;
+      
 
         int [][]arr = new int [4][4];
 
@@ -22,7 +22,7 @@ public class Main {
                 sum += arr[i][j];
             }
 
-             System.out.print(sum);
+             System.out.println(sum);
           
            
             
