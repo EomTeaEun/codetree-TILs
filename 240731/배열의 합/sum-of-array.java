@@ -19,7 +19,7 @@ public class Main {
         for(int i=0; i<4; i++){
             int sum = 0;
             for(int j=0;j<4;j++){
-                sum += arr[a][j];
+                sum += arr[i][j];
             }
 
              System.out.print(sum);
