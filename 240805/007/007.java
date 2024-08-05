@@ -28,8 +28,8 @@ public class Main {
         Spy sp = new Spy(sCode, mPoint, time);
 
         // 결과를 출력합니다.
-        System.out.println("secret code : " + sp.secretCode);
-        System.out.println("meeting point : " + sp.meetingPoint);
+        System.out.println("secret code : " + sp.sccode);
+        System.out.println("meeting point : " + sp.mtcode);
         System.out.println("time : " + sp.time);
 
 
