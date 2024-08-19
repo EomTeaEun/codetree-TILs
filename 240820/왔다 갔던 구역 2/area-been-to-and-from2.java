@@ -34,20 +34,20 @@ public class Main {
 
                        
 
-                        System.out.println(a);
+                       
 	            }
 
                 else{
 
                     
-                        for(int j = a; j>a-x; j-- ){ //offset을 j 범위에 더해주는게 아니라 배열 번호에 더해줘야했음..
+                        for(int j = a-1; j>=a-x; j-- ){ //offset을 j 범위에 더해주는게 아니라 배열 번호에 더해줘야했음..
                             arr[j+offset]++;
                              
                         }
 
                         a -= x; //위치 갱신
 
-                     System.out.println(a);
+                    
                         
 
                         
