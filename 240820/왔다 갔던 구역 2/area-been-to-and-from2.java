@@ -25,7 +25,7 @@ public class Main {
 	            if(dir == 'R'){
 
                         
-                        for(int j = a; j<a+x; j++ ){ //겹치는 "구간"이니까 for문은 x1부터 x2-1까지
+                        for(int j = a+1; j<=a+x; j++ ){ //겹치는 "구간"이니까 for문은 x1부터 x2-1까지
                             arr[j+offset]++; //겹치는 구간 칠하기
                             
                         }
@@ -40,7 +40,7 @@ public class Main {
                 else{
 
                     
-                        for(int j = a-1; j>=a-x; j-- ){ //offset을 j 범위에 더해주는게 아니라 배열 번호에 더해줘야했음..
+                        for(int j = a; j>a-x; j-- ){ //offset을 j 범위에 더해주는게 아니라 배열 번호에 더해줘야했음..
                             arr[j+offset]++;
                              
                         }
